@@ -1,0 +1,53 @@
+.container .box p {
+    background-color: yellowgreen;
+    padding:20px;
+    display: inline-block;
+}
+.section> div>p {
+    background-color: aqua;
+    margin: 15px;
+    border: 2px solid black;
+    display: inline-block;
+}
+.card>.card-body>p {
+    border: 2px solid red;
+    display: inline-block;
+}
+.navbar>ul>li:nth-child(even)  {
+    background-color: greenyellow;
+}
+.navbar>ul>li:nth-child(odd)  {
+    background-color: lightblue;
+}
+.header>h1 {
+    background-color: grey;
+    margin-top: 20px;
+    display: inline-block;
+}
+.footer>span {
+    background-color: aqua;
+    padding: 10px;
+}
+.main-content>.content>p {
+    border: 1px solid black;
+    display: inline-block;
+}
+.nav>ul {
+    border: 2px solid black;
+}
+.nav>ul>li:nth-child(even) {
+    margin-right: 15px;
+    background-color: aqua;
+}
+.nav>ul>li:nth-last-child(odd) {
+    margin-right: 15px;
+    background-color: palegreen;
+}
+.gallery {
+    background-color: lightgrey;
+    display: inline-block;
+}
+.container .footer span {
+    border-radius: 5px;
+    background-color: purple;
+}
